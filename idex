@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hanan Eissa — Product Designer</title>
+<meta name="description" content="Hanan Eissa, Product Designer — UI/UX &amp; Research. Portfolio coming soon." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+<style>
+  :root {
+    --near-black: #1C1B19;
+    --off-white: #F5F1EA;
+    --brown: #6B4632;
+    --burgundy: #783B4B;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    background-color: var(--off-white);
+    color: var(--near-black);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 32px 24px;
+  }
+
+  main {
+    width: 100%;
+    max-width: 560px;
+    text-align: center;
+  }
+
+  .logo {
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    font-size: clamp(48px, 9vw, 72px);
+    color: var(--near-black);
+    line-height: 1;
+    margin-bottom: 14px;
+  }
+
+  .eyebrow {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--brown);
+    margin-bottom: 36px;
+  }
+
+  .positioning {
+    font-size: clamp(16px, 2.6vw, 19px);
+    font-weight: 300;
+    line-height: 1.6;
+    color: var(--near-black);
+    max-width: 440px;
+    margin: 0 auto 40px;
+  }
+
+  .status {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--burgundy);
+    margin-bottom: 44px;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+
+  .links a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--near-black);
+    border: 1px solid rgba(28, 27, 25, 0.22);
+    padding: 10px 20px;
+    border-radius: 100px;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  }
+
+  .links a:hover,
+  .links a:focus-visible {
+    background-color: var(--brown);
+    border-color: var(--brown);
+    color: var(--off-white);
+    outline: none;
+  }
+
+  .links a.primary {
+    background-color: var(--near-black);
+    border-color: var(--near-black);
+    color: var(--off-white);
+  }
+
+  .links a.primary:hover,
+  .links a.primary:focus-visible {
+    background-color: var(--burgundy);
+    border-color: var(--burgundy);
+  }
+
+  footer {
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(28, 27, 25, 0.5);
+  }
+
+  @media (max-width: 420px) {
+    .links a {
+      padding: 9px 16px;
+      font-size: 12.5px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<main>
+  <div class="logo">Hanan Eissa</div>
+  <div class="eyebrow">Product Designer — UI/UX &amp; Research</div>
+
+  <p class="positioning">
+    I think first, then turn complex problems into products that are simple, clear, and easy to trust.
+  </p>
+
+  <p class="status">Full portfolio launching soon</p>
+
+  <nav class="links" aria-label="Contact and profile links">
+    <a href="https://www.linkedin.com/in/hananahmedeissa" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a href="https://github.com/hananeissa24" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="https://drive.google.com/drive/folders/1yganehINaexGCC9BzUGeSFr8bOpPIWQE?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
+    <a class="primary" href="https://calendly.com/hananeissa24/30min" target="_blank" rel="noopener noreferrer">Book a call</a>
+  </nav>
+
+  <footer>Open to full-time roles and select freelance projects.</footer>
+</main>
+
+</body>
+</html>
